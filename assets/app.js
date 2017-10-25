@@ -1,4 +1,5 @@
+module.hot.accept()
 require('./test.css')
 
-console.log('app3')
-console.log(1)
+console.log('app111')
+console.log(3)
