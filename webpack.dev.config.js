@@ -8,12 +8,12 @@ module.exports = {
     index: './assets/index.js',
     test: './assets/test.js',
     hot: 'webpack/hot/only-dev-server',
-    devServerClient: 'webpack-dev-server/client?http://0.0.0.0:3000'
+    devServerClient: 'webpack-dev-server/client?http://0.0.0.0:5000'
   },
   output: {
       path: path.resolve('./assets/bundles/'),
       filename: "[name]-[hash].js",
-      publicPath: 'http://localhost:3000/static/', // Tell django to use this URL to load packages and not use STATIC_URL + bundle_name
+      publicPath: 'http://localhost:5000/static/', // Tell django to use this URL to load packages and not use STATIC_URL + bundle_name
   },
 
   plugins: [
@@ -21,7 +21,7 @@ module.exports = {
     new webpack.NoEmitOnErrorsPlugin(), // don't reload if there is an error
     new ManifestPlugin({
       writeToFileEmit: true,
-      publicPath: 'http://localhost:3000/static/'
+      publicPath: 'http://localhost:5000/static/'
     })
   ],
 
@@ -49,7 +49,7 @@ module.exports = {
   devServer: {
     publicPath: '/static/',
     host: '0.0.0.0',
-    port: "3000",
+    port: "5000",
     hot: true,
     inline: true,
     headers: {

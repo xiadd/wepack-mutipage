@@ -1,6 +1,6 @@
 {
-  "devServerClient.js": "http://localhost:3000/static/devServerClient-34f7dc3f605083781870.js",
-  "hot.js": "http://localhost:3000/static/hot-34f7dc3f605083781870.js",
-  "index.js": "http://localhost:3000/static/index-34f7dc3f605083781870.js",
-  "test.js": "http://localhost:3000/static/test-34f7dc3f605083781870.js"
+  "devServerClient.js": "http://localhost:5000/static/devServerClient-1c6f99d92be03e870453.js",
+  "hot.js": "http://localhost:5000/static/hot-1c6f99d92be03e870453.js",
+  "index.js": "http://localhost:5000/static/index-1c6f99d92be03e870453.js",
+  "test.js": "http://localhost:5000/static/test-1c6f99d92be03e870453.js"
 }

@@ -4,4 +4,4 @@ if (module.hot) {
 
 require('./test.css')
 
-alert(1)
+alert(4)
