@@ -6,7 +6,7 @@ module.exports = {
   context: __dirname,
   entry: {
     index: './assets/index.js',
-    app: './assets/test.js',
+    test: './assets/test.js',
     hot: 'webpack/hot/only-dev-server',
     devServerClient: 'webpack-dev-server/client?http://0.0.0.0:3000'
   },
